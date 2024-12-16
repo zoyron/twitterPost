@@ -23,7 +23,7 @@ const OutputDisplay = ({ output }) => {
         </button>
       </div>
       <pre className="bg-gray-100 p-4 rounded-md overflow-auto whitespace-pre-wrap">
-        {JSON.stringify(output, null, 2)}
+        {JSON.stringify(output, null, 8)}
       </pre>
     </div>
   );
