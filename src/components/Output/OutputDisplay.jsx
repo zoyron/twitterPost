@@ -5,7 +5,7 @@ const OutputDisplay = ({ output }) => {
   if (!output) return null;
 
   const handleCopy = () => {
-    copyToClipboard(JSON.stringify(output, null, 2));
+    copyToClipboard(JSON.stringify(output, null, 8));
   };
 
   return (
